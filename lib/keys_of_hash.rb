@@ -5,7 +5,6 @@ class Hash
     each do |animal, location|
       if arguments.include?(location)
         array << animal
-
       end
     end
     array
